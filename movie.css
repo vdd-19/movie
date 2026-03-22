@@ -8,16 +8,23 @@ body{
     justify-content: center;
     align-items: center;
     height: 100dvh;
-    background: linear-gradient(135deg,rgb(117, 11, 11),rgb(150, 62, 62));
+    background: linear-gradient(135deg,rgb(97, 3, 66),rgba(163, 54, 131, 0.993));
     color: white;
 }
 .container{
     text-align: center;   
-    
+    width: 360px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
+    
+
 button{
-    color: white;
-    background-color: rgb(255, 185, 55);
+    color: rgb(0, 0, 0);
+    background-color: rgb(133, 227, 255);
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -32,4 +39,23 @@ input{
     margin-top: 15px;
     display: flex;
     gap: 10px;
+}
+
+.movie{
+  display:none;
+}
+
+.movie img{
+  width:100%;
+  border-radius:12px;
+  margin-bottom:10px;
+}
+
+.movie h3{
+  margin:5px 0;
+}
+
+.movie p{
+  font-size:14px;
+  opacity:0.9;
 }
